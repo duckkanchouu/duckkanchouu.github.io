@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+   
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding-left: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    position: relative;
+    padding-top: 10%;
+    padding-left: 7%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+.h1{
+    margin: 0px 0px 0px 0px;
+    color: #0e2452";
+    margin-bottom: 10px;
+}
+.img, .avatar{
+    float: right;
+    margin: 0px 0px 0px 0px;
+    width: 113px;
+    height: 113px;
+    object-fit: cover;
+}
+.b {
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row; /* Hiển thị các phần tử theo chiều ngang */
+    flex-wrap: wrap; /* Cho phép chuyển dòng khi không đủ không gian */
+    margin-bottom: 10px;
+}
+
+.left-column,
+.right-column {
+    width: 50%;
+    flex: 0 0 13%; /* Mỗi cột chiếm 48% chiều rộng */
+    margin-bottom: 10px;
+}
+
+.right-column {
+    margin-left: 10px; /* Khoảng cách giữa hai cột */
+    margin-bottom: 40px;
+}
+
+.info-container a {
+    text-decoration: none;
+    color: #007bff; /* Màu liên kết có thể được điều chỉnh */
+}
+
+
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Gạch dưới mờ */
+}
+
+.date {
+    flex: 0 0 20%; /* Chiếm 30% chiều rộng */
+}
+
+.details {
+    flex: 1; /* Chiếm phần còn lại của chiều rộng */
+    margin-left: 10px; /* Khoảng cách giữa ngày và nội dung chi tiết */
+}
+
+.education-item > div {
+    margin-bottom: 5px;
+}
+
+.hobbies-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hobby-item {
+    margin-bottom: 10px; /* Khoảng cách giữa các dòng */
+}
+
+.top {
+    margin-top: 10px;
+    border-top: 2px solid rgb(0, 0, 0, 0.1);
+    
+}
+.bot {
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    margin-top: 4px;
+    
+}
+
+.x {
+    margin-bottom: 10px;
+}
